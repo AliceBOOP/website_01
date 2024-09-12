@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Website</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../templates/table.css">
+    <link rel="stylesheet" href="../templates/header.css">
+</head>
+
+<body>
+    <header>
+        <div><img src="../logo/logoo.png">
+            <h1>HEADER</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">abc</a></li>
+                <li><a href="">abc</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <nav>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button onclick="performSearch()">^</button>
+            </div>
+            <div class="side-menu">
+                <ul class="side-menu-list1">
+                    <li><a href="pages/index.html">Home</a></li>
+                    <li>
+                        <a href="pages/introduction.html">Introduction</a>
+                        <ul class="side-menu-list2">
+                            <li><a href="pages/introduction.html">Test</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pages/setup.html">Setup Guide</a></li>
+                    <li><a href="pages/faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Contents</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            AAA
+                        </td>
+                        <td>
+                            AAA
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            BBB
+                        </td>
+                        <td>
+                            BBB
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            CCC
+                        </td>
+                        <td>
+                            CCC
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <footer> FOOTER </footer>
+    <script src=scripts.js></script>
+</body></html>
